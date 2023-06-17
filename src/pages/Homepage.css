@@ -1,0 +1,91 @@
+.container {
+  background-color: #f4f4f4;
+}
+
+.home-page-menu-container {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.home-top-text-container {
+  background-color: rgb(173, 14, 14);
+  margin: 0;
+}
+
+.home-top-text-container h3 {
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.home-page-search-icon {
+  background-color: #4d4d4f;
+  color: #fff;
+  align-self: center;
+  padding: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.home-page-menu {
+  background-color: #007aff;
+  padding: 10px 0;
+}
+
+.home-page-input-holder {
+  display: flex;
+  width: 100%;
+}
+
+input[type="text"] {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: white;
+  padding: 12px 20px 12px 24px;
+  transition: width 0.4s ease-in-out;
+}
+
+/* CSS */
+.random-beer-btn {
+  background-color: #4d4d4f;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  outline: none;
+  padding: 9px 20px 8px;
+  text-align: center;
+  text-transform: none;
+}
+
+.random-beer-btn:hover,
+.random-beer-btn:focus {
+  opacity: 0.75;
+}
+
+.home-page-search-icon:hover {
+  opacity: 0.75;
+}
+
+@media (min-width: 768px) {
+  .home-page-menu-container {
+    flex-direction: row;
+  }
+  .random-beer-btn {
+    width: 15rem;
+  }
+}
+
+
