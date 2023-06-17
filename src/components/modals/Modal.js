@@ -1,10 +1,7 @@
-import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
-//import { getBeerDetails } from '../services/beerService';
 import "./Modal.css";
 import { X as CloseIcon } from "lucide-react";
 
-const Modal = ({ showModal, setShowModal, children }) => {
+const Modal = ({ setShowModal, children }) => {
   return (
     <>
       <div className="modal" onClick={() => setShowModal(false)}>

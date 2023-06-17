@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { getBeerDetails } from "../../services/beerService";
 import "./BeerDetails.css";
-import { BackpackIcon, MoveLeftIcon } from "lucide-react";
+import {  MoveLeftIcon } from "lucide-react";
 import Loader from "../loader/Loader";
 
 const BeerDetails = () => {

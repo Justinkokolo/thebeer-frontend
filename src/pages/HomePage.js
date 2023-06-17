@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import BeerList from "../components/beer-list/BeerList";
 import "./Homepage.css";
-import { Link } from "react-router-dom";
 import { getRandomBeer, searchBeers } from "../services/beerService";
-import { RefreshCcwIcon, SearchIcon } from "lucide-react";
+import { SearchIcon } from "lucide-react";
 
 const HomePage = () => {
   const [searchQuery, setSearchQuery] = useState("");

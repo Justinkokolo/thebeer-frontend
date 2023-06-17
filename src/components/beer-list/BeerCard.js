@@ -1,6 +1,3 @@
-import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import { getBeerMenu } from "../../services/beerService";
 import "./BeerList.css";
 
 const BeerCard = ({ beer, setBeerClicked, setShowModal }) => {

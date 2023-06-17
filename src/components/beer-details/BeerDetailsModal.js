@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import "./BeerDetails.css";
 import { Link } from "react-router-dom";
 

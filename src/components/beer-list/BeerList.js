@@ -11,10 +11,6 @@ const BeerList = ({ searchResults, randomBeer }) => {
 
   const [showModal, setShowModal] = useState(false);
 
-  const handleShowModal = () => {
-    setShowModal(!showModal);
-  };
-
   useEffect(() => {
     const fetchBeerMenu = async () => {
       try {
