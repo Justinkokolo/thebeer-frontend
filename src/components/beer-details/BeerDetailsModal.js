@@ -13,10 +13,10 @@ const BeerDetails = ({ beer }) => {
         <h1>{beer.name}</h1>
         <p>{beer.tagline}</p>
         <p>{`${beer.description.slice(0, 100)}...`}</p>
-        <Link className="goback-icon" to={`/beer/${beer.id}`}>
-          Learn more
-        </Link>
       </div>
+      <Link className="goback-icon learn-more-link" to={`/beer/${beer.id}`}>
+        Learn more...
+      </Link>
     </div>
   );
 };

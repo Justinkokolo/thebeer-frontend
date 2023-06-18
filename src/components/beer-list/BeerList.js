@@ -34,7 +34,7 @@ const BeerList = ({ searchResults, randomBeer }) => {
 
   return (
     <div className="beer-list-container">
-      <h1>Beer List</h1>
+      <h1>Beer Menu</h1>
       <div className="beer-list-card-container">
         {beers.map((beer) => (
           <BeerCard

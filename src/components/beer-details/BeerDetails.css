@@ -8,12 +8,20 @@
 .beer-details-image {
   width: 3rem;
 }
+
 .beer-details-img {
   width: 3rem;
 }
 
 .beer-modal-text-holder {
   height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.learn-more-link {
+  margin-top: auto;
+  width: 9rem;
 }
 
 .goback-link {

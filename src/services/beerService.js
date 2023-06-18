@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://beerappapi.azurewebsites.net";
+const API_URL = "https://thebeerapiv1.azurewebsites.net";
 
 export const getBeerMenu = () => {
   return axios.get(`${API_URL}/beer/menu`);

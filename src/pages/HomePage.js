@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import BeerList from "../components/beer-list/BeerList";
 import "./Homepage.css";
 import { getRandomBeer, searchBeers } from "../services/beerService";
-import { SearchIcon } from "lucide-react";
+import NavBar from "../components/menu/NavBar";
 
 const HomePage = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -29,28 +29,12 @@ const HomePage = () => {
 
   return (
     <div className="container">
-      <div className="home-top-text-container">
-        <h3>ALCOHOL NOT FOR SALE TO PERSONS UNDER THE AGE OF 18.</h3>
-      </div>
-      <div className="home-page-menu">
-        <div className="home-page-menu-container">
-          <button onClick={fetchRandomBeer} className="random-beer-btn">
-            Get random beer
-          </button>
-          <div className="home-page-input-holder">
-            <input
-              type="text"
-              placeholder="Search..."
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-            />
-            <SearchIcon
-              className="home-page-search-icon"
-              onClick={handleSearch}
-            />
-          </div>
-        </div>
-      </div>
+      <NavBar
+        setSearchQuery={setSearchQuery}
+        fetchRandomBeer={fetchRandomBeer}
+        searchQuery={searchQuery}
+        handleSearch={handleSearch}
+      />
       <BeerList searchResults={searchResults} randomBeer={randomBeer} />
     </div>
   );

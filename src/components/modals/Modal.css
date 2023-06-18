@@ -9,9 +9,9 @@
   justify-content: center;
   align-items: center;
   backdrop-filter: blur(3px);
+  z-index: 999;
 }
 
-/* Modal content */
 .modal-content {
   position: relative;
   background-color: #fff;
@@ -25,7 +25,6 @@
   border-radius: 5px;
 }
 
-/* Close button */
 .modal-closeIcon {
   cursor: pointer;
   position: absolute;
