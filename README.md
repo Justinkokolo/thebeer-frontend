@@ -17,8 +17,6 @@ To install the dependencies, please follow these steps:
 2. Open a terminal or command prompt.
 3. Navigate to the root directory of the project.
 4. Run the following command to install the dependencies:
-
-````bash
 $ npm install
 
 ### Running the Application
