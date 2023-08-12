@@ -7,7 +7,7 @@ The Beer App is a web application that allows users to explore and search for va
 
 ## Resources
 
-- [Link to the website](https://kind-pond-0d452dc10.3.azurestaticapps.net/)
+- [Link to the website](https://black-ground-0ee961b10.3.azurestaticapps.net/)
 
 ## Setup
 
